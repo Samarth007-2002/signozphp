@@ -1,0 +1,17 @@
+{
+    "name": "php-sample",
+    "description": "A simple PHP application using OpenTelemetry for tracing.",
+    "require": {
+        "open-telemetry/opentelemetry": "^0.4.0" // Adjust the version if necessary
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080 -t public"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
